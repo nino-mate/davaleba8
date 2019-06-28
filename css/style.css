@@ -36,11 +36,36 @@
 }
 .puddle{
 	position: absolute;
-	top: 500px;
-	left: 400px;
+	width: 600px;
+	top: 580px;
+	left: 540px;
+	animation: mymove2 3.5s infinite;
 }
 @keyframes mymove{
-	from { top: 260px;}
-	to { top: 800px;}
-	
+	from { top: 260px; opacity: 100%}
+	to { top: 800px; opacity: 0}
+}
+@keyframes mymove2{
+	25% {opacity: 0}
+	50% {opacity: 25%}
+	75% {opacity: 55%}
+	100% {opacity: 100%}
+}
+.navbar{
+	position: absolute;
+	top: 210px;
+	left: 640px;
+}
+.navli{
+	display: inline-block;
+	font-size: 50px;
+	padding-right: 30px;
+}
+a{
+	transition: all ease;
+}
+a:hover{
+	color: red;
+	font-weight: bold;
+	background: blue;
 }

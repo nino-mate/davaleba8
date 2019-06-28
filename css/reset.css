@@ -54,7 +54,5 @@ ul{
 }
 li{
 	list-style-type: none;
-}
-.box1{
-	margin: none;
+	text-decoration: none;
 }
